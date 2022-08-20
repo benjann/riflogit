@@ -1,5 +1,5 @@
 {smcl}
-{* 15aug2022}{...}
+{* 20aug2022}{...}
 {hi:help riflogit}{...}
 {right:{browse "http://github.com/benjann/riflogit/"}}
 {hline}
@@ -15,6 +15,12 @@
     {cmd:riflogit} {depvar} [{indepvars}] {ifin} {weight}
     [{cmd:,}
     {help riflogit##opt:{it:options}}
+    ]
+
+{p 8 15 2}
+    {cmd:predict} {dtype} {newvar} {ifin}
+    [{cmd:,}
+    {it:{help riflogit##popt:predict_options}}
     ]
 
 
@@ -56,6 +62,30 @@
 {pstd}
     {cmd:pweight}s, {cmd:fweight}s, and {cmd:iweight}s are allowed; see help
     {help weight}.
+    {p_end}
+
+
+{synoptset 20}{...}
+{marker popt}{synopthdr:predict_options}
+{synoptline}
+{syntab :Main}
+{synopt :{space 2}{opt xb}}linear prediction; the default
+    {p_end}
+{synopt :{space 2}{opt stdp}}standard error of the linear prediction
+    {p_end}
+{synopt :{space 2}{opt r:esiduals}}residuals
+    {p_end}
+{synopt :{cmd:*} {opt rif}}recentered influence function
+    {p_end}
+{synopt :{space 2}{opt sc:ore}}score
+    {p_end}
+
+{syntab :Options}
+{synopt :{space 2}{opt nolab:el}}do not label the newly created variable
+    {p_end}
+{synoptline}
+{pstd}
+    Unstarred statistics are available both in and out of sample.
     {p_end}
 
 
@@ -180,4 +210,5 @@
 
 {psee}
     Online:  help for
-    {helpb regress}, {helpb logit}, {helpb ipwlogit} (if installed)
+    {helpb regress}, {helpb logit}, {helpb ipwlogit} (if installed),
+    {helpb lnmor} (if installed)
