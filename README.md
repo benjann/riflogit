@@ -16,5 +16,8 @@ Installation from GitHub:
 
 Main changes:
 
-    15aug2022 (version 1.0.0):
+    20aug2022
+    - -predict- revised
+
+    15aug2022
     - riflogit released on GitHub
