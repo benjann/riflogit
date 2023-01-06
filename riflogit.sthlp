@@ -1,5 +1,5 @@
 {smcl}
-{* 20aug2022}{...}
+{* 06jan2023}{...}
 {hi:help riflogit}{...}
 {right:{browse "http://github.com/benjann/riflogit/"}}
 {hline}
@@ -98,8 +98,10 @@
     and nonmissing (typically {it:depvar} equal to one) indicates a positive
     outcome, whereas {it:depvar} equal to zero indicates a negative outcome. The
     exponents of the coefficients have an (approximate) marginal odds ratio
-    interpretation. See Firpo et al. (2009) for methodological background
-    on RIF regression.
+    interpretation. See {browse "https://doi.org/10.3982/ECTA6822":Firpo et al. (2009)}
+    for methodological background on RIF regression. For details on
+    unconditional logistic regression and marginal odds ratios see
+    {browse "https://ideas.repec.org/p/bss/wpaper/44.html":Jann and Karlson (2023)}.
 
 
 {title:Options}
@@ -175,21 +177,17 @@
     removes macro {cmd:e(estat_cmd)}.
 
 
-{title:Methods and Formulas}
-
-{pstd}
-    See Jann and Karlson (2022).
-
-
 {title:References}
 
 {phang}
-    Firpo, Sergio, Nicole M. Fortin, and Thomas Lemieux. 2009. Unconditional
-    Quantile Regressions. Econometrica 77(3):953–973. DOI: {browse  "https://doi.org/10.3982/ECTA6822":10.3982/ECTA6822}
+    Firpo, Sergio, Nicole M. Fortin, Thomas Lemieux. 2009. Unconditional
+    Quantile Regressions. Econometrica
+    77(3):953–973. DOI: {browse "https://doi.org/10.3982/ECTA6822":10.3982/ECTA6822}
     {p_end}
 {phang}
-    Jann, Ben, and Kristian Bernt Karlson. 2022. Marginal odds ratios: What they
-    are, how to compute them, and why sociologists might want to use them. Working paper.
+    Jann, Ben, Kristian Bernt Karlson. 2023. Estimation of marginal odds ratios. University
+    of Bern Social Sciences Working Papers 44. Available from
+    {browse "https://ideas.repec.org/p/bss/wpaper/44.html"}.
     {p_end}
 
 

@@ -10,7 +10,8 @@ marginal odds ratio interpretation.
 
 Installation from GitHub:
 
-    . net install riflogit, replace from(https://raw.githubusercontent.com/benjann/riflogit/main/)
+    . net from https://raw.githubusercontent.com/benjann/riflogit/main/
+    . net install riflogit, replace
 
 ---
 
