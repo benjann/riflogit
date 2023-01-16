@@ -139,12 +139,9 @@
     that is, exp(b) rather than b. Standard errors and confidence intervals are
     similarly transformed. This option affects how results are displayed, not
     how they are estimated. {cmd:or} may be specified at estimation or when
-    replaying previously estimated results.
-
-{pmore}
-    Option {cmd:or} is not supported at estimation if the {helpb svy}
-    prefix is applied. Type {cmd:eform(Odds ratio)} instead of {cmd:or} in
-    this case, or specify {cmd:or} when replaying the results.
+    replaying previously estimated results. When applying multiple imputation,
+    specify {cmd:or} as option to {helpb mi estimate}, not as option to
+    {cmd:riflogit}.
 
 {phang}
     {opt noheader} suppresses the display of the table header.

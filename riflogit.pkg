@@ -3,7 +3,7 @@ d riflogit: Stata module to fit unconditional logistic regression
 d 
 d Author: Ben Jann, University of Bern, ben.jann@unibe.ch
 d
-d Distribution-Date: 20230106
+d Distribution-Date: 20230116
 f riflogit.ado
 f riflogit_RIF.ado
 f riflogit.sthlp

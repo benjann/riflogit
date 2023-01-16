@@ -1,6 +1,6 @@
-*! version 1.0.0  26jul2022  Ben Jann
+*! version 1.0.1  06jan2023  Ben Jann
 
-program riflogit, eclass properties(svyr svyb svyj mi)
+program riflogit, eclass properties(or svyr svyb svyj mi)
     version 11
     if replay() {
         Display `0'
